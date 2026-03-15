@@ -1,6 +1,6 @@
-# app/infrastructure/repositories/sqlalchemy_user_repository.py
 from sqlalchemy import select, Column, Integer, String
 from sqlalchemy.ext.asyncio import AsyncSession
+
 from app.infrastructure.database import Base
 from app.domain.entities.user import User
 from app.domain.repositories.user_repository import UserRepository
@@ -23,3 +23,29 @@ class SQLAlchemyUserRepository(UserRepository):
         if not model:
             return None
         return User(id=model.id, email=model.email, hashed_password=model.hashed_password, role=model.role)
+
+    async def create(self, email: str, hashed_password: str, role: str) -> User:
+        model = UserModel(email=email, hashed_password=hashed_password, role=role)
+        self.session.add(model)
+        await self.session.commit()
+        await self.session.refresh(model)
+
+        return User(id=model.id, email=model.email, hashed_password=model.hashed_password, role=model.role)
+
+    
+    async def get_by_id(self, user_id: int) -> User | None:
+        stmt = select(UserModel).where(UserModel.id == user_id)
+        res = await self.session.execute(stmt)
+        model = res.scalar_one_or_none()
+        if not model:
+            return None
+        return User(
+            id=model.id,
+            email=model.email,
+            hashed_password=model.hashed_password,
+            role=model.role,
+        )
+
+
+
+

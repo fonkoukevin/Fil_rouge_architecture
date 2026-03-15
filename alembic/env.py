@@ -7,6 +7,7 @@ from alembic import context
 
 # IMPORTANT : importer Base et les models pour que autogenerate les voie
 from app.infrastructure.database import Base
+from app.infrastructure.models import ManuscriptModel, ChapterModel, ManuscriptVersionModel
 from app.infrastructure.repositories.sqlalchemy_user_repository import UserModel  # noqa: F401
 
 config = context.config
