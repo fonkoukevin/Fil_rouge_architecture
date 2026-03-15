@@ -13,7 +13,11 @@ class NotificationRepository(ABC):
         pass
 
     @abstractmethod
-    async def get_by_id_and_user_id(self, notification_id: str, user_id: int) -> Notification | None:
+    async def get_by_id_and_user_id(
+        self,
+        notification_id: str,
+        user_id: int,
+    ) -> Notification | None:
         pass
 
     @abstractmethod
