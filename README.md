@@ -135,13 +135,6 @@ Un diagramme de **bounded context** a été réalisé afin de représenter les d
 
 Un diagramme DDD permet de représenter les principaux éléments du domaine :
 
-- Manuscript
-- Chapter
-- Version
-- Book
-- User
-- Notification
-
 ![DDD Diagram](docs/Domaine.png)
 
 ---
