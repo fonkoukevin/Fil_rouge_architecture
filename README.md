@@ -1,4 +1,4 @@
-# 📚 Plumora API
+#  Plumora API
 
 Backend API pour une plateforme d’édition numérique permettant aux **auteurs** de soumettre des manuscrits, aux **éditeurs** de les évaluer et de publier les œuvres validées.
 
@@ -6,11 +6,11 @@ Le projet met en œuvre une architecture inspirée de **Clean Architecture** et 
 
 ---
 
-# 📖 Description fonctionnelle
+#  Description fonctionnelle
 
 Plumora simule une **plateforme éditoriale** où plusieurs acteurs interviennent.
 
-## ✍️ Auteurs
+##  Auteurs
 
 Les auteurs peuvent :
 
@@ -19,7 +19,7 @@ Les auteurs peuvent :
 - créer des versions
 - soumettre leur manuscrit à l’édition
 
-## 📝 Éditeurs
+##  Éditeurs
 
 Les éditeurs peuvent :
 
@@ -27,11 +27,11 @@ Les éditeurs peuvent :
 - demander des corrections
 - accepter ou rejeter les manuscrits
 
-## 📚 Publication
+##  Publication
 
 Lorsqu’un manuscrit est accepté, il peut être publié sous forme de **livre dans le catalogue**.
 
-## 🔔 Notifications
+##  Notifications
 
 Les utilisateurs reçoivent des notifications lors d’événements importants :
 
@@ -41,7 +41,7 @@ Les utilisateurs reçoivent des notifications lors d’événements importants :
 
 ---
 
-# ⚙️ Description technique
+#  Description technique
 
 Le projet est développé avec :
 
