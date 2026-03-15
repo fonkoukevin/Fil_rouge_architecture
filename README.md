@@ -63,7 +63,7 @@ Le développement est réalisé sous **WSL (Windows Subsystem for Linux)**.
 
 Le projet est conçu selon les principes de **Clean Architecture** et **Domain Driven Design (DDD)**.
 
-![Architecture](docs/Architecture .png)
+![C4 Component Diagram](docs/Architecture.png)
 
 
 Cette structure permet :
