@@ -59,7 +59,7 @@ Le développement est réalisé sous **WSL (Windows Subsystem for Linux)**.
 
 ---
 
-# 🏗 Architecture du projet
+#  Architecture du projet
 
 Le projet est conçu selon les principes de **Clean Architecture** et **Domain Driven Design (DDD)**.
 
