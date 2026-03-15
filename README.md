@@ -107,9 +107,7 @@ Ce diagramme montre les **acteurs principaux et leurs interactions avec le syst�
 
 Ce diagramme décrit les **principaux conteneurs techniques du système**, comme l’API, la base de données et les services.
 
-*(Ajouter l’image du diagramme C4 Container)*
-
-![C4 Container Diagram](docs/c4-container.png)
+![C4 Container Diagram](docs/C2.png)
 
 ---
 
@@ -122,9 +120,11 @@ Ce diagramme présente les **composants internes de l’API**, notamment les cou
 - infrastructure
 - presentation
 
-*(Ajouter l’image du diagramme C4 Component)*
+Publication
+![C4 Component Diagram](docs/C3-publication.png)
 
-![C4 Component Diagram](docs/c4-component.png)
+Manuscrit
+![C4 Component Diagram](docs/C3-manuscrit.png)
 
 ---
 
@@ -144,9 +144,7 @@ Le **domaine métier** est clairement identifié et modélisé à travers :
 
 Un diagramme de **bounded context** a été réalisé afin de représenter les différentes parties du domaine métier.
 
-*(Ajouter l’image du diagramme Bounded Context)*
-
-![Bounded Context Diagram](docs/bounded-context.png)
+![Bounded Context Diagram](docs/Bounded-context.png)
 
 ---
 
@@ -161,9 +159,7 @@ Un diagramme DDD permet de représenter les principaux éléments du domaine :
 - User
 - Notification
 
-*(Ajouter l’image du diagramme DDD)*
-
-![DDD Diagram](docs/ddd-diagram.png)
+![DDD Diagram](docs/Domaine.png)
 
 ---
 
