@@ -99,9 +99,7 @@ Le projet est modélisé à l’aide du **modèle C4**, qui permet de représent
 
 Ce diagramme montre les **acteurs principaux et leurs interactions avec le système Plumora**.
 
-*(Ajouter l’image du diagramme C4 Contexte)*
 
-![C4 Context Diagram](docs/c4-context.png)
 
 ---
 
