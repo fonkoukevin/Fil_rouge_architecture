@@ -91,7 +91,7 @@ Cette structure permet :
 
 ---
 
-# 🧭 Modélisation de l’architecture (C4 Model)
+#  Modélisation de l’architecture (C4 Model)
 
 Le projet est modélisé à l’aide du **modèle C4**, qui permet de représenter l’architecture logicielle à plusieurs niveaux.
 
@@ -130,7 +130,7 @@ Ce diagramme présente les **composants internes de l’API**, notamment les cou
 
 ---
 
-# 🧠 Domain Driven Design (DDD)
+#  Domain Driven Design (DDD)
 
 Le projet est structuré selon les principes du **Domain Driven Design**.
 
@@ -169,7 +169,7 @@ Un diagramme DDD permet de représenter les principaux éléments du domaine :
 
 ---
 
-# 🧠 Design Patterns utilisés
+#  Design Patterns utilisés
 
 ## 1️⃣ State Pattern
 
@@ -232,7 +232,7 @@ http://localhost:8081
 
 ---
 
-# 🚀 Installation du projet
+#  Installation du projet
 
 ## 1️⃣ Cloner le projet
 
@@ -256,7 +256,7 @@ uv run alembic upgrade head
 
 uv run uvicorn app.main:app --reload
 
-🌐 Accès à l'API
+ Accès à l'API
 
 API :
 
@@ -266,7 +266,7 @@ Documentation Swagger :
 
 http://127.0.0.1:8000/docs
 
-🧪 Tests
+ Tests
 
 Tests réalisés avec :
 
@@ -285,7 +285,7 @@ Couverture :
 uv run pytest --cov=app
 
 Couverture actuelle : 32%
-🔄 Pipeline CI
+ Pipeline CI
 
 Un pipeline GitHub Actions exécute automatiquement les tests.
 
@@ -299,7 +299,7 @@ Déclenché sur :
 
     pull_request
 
-📡 Routes API
+ Routes API
 Auth
 
 POST /auth/register
