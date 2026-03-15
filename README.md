@@ -184,6 +184,15 @@ domain/ports/notification_port.py
 
 ---
 
+
+## 4️⃣ Dependency Injection Pattern
+
+## 5️⃣ Repository Pattern
+
+## 6️⃣ DTO Pattern
+
+---
+
 # 🗄 Base de données
 
 Le projet utilise **MySQL via Docker**.
